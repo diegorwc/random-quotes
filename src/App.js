@@ -22,7 +22,7 @@ function QuoteBox() {
           <div></div>
         </div>                
         <button id="new-quote" className="btn btn-success" onClick={() => dispatch(next())}>New quote</button>
-        <a id="tweet-quote" className="btn btn-primary" href={tweet_msg}>Tweet quote</a>        
+        <a id="tweet-quote" className="btn btn-primary" href={tweet_msg} target="_blank">Tweet quote</a>        
       </div>
     )
 }
